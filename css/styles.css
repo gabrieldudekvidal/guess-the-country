@@ -1,0 +1,58 @@
+body {
+ background-color: #4351ab;
+
+}
+
+.title {
+  text-align: center;
+  margin: 130px 0px 130px 0px;
+  font-size: 60px;
+  color: #ff9900;
+  font-family: "Secular One";
+}
+
+.container {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  display: block;
+}
+
+.description {
+  text-align: center;
+  padding-bottom: 50px;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+#input {
+  margin: 10px auto 10px auto;
+  display: block;
+  width: 200px;
+  height: 50px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: #f7f7f7;
+}
+
+#button-guess {
+  margin: 100px auto 10px auto;
+  display: block;
+  padding: 20px;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 10px;
+}
+
+#button-guess:hover {
+  margin: 100px auto 10px auto;
+  display: block;
+  padding: 20px;
+  font-weight: bold;
+  background-color: #e0e4ff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
