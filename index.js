@@ -2,7 +2,9 @@ const countries = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguill
 const randomNumber = Math.floor(Math.random() * countries.length);
 const randomCountry = countries[randomNumber];
 
-document.getElementById("tip1").innerHTML = "The last character is: " + randomCountry.slice(-1).toUpperCase();
+document.getElementById("tip0").innerHTML = "The FIRST character is: " + randomCountry.slice(0,1).toUpperCase();
+document.getElementById("tip1").innerHTML = "The LAST character is: " + randomCountry.slice(-1);
+
 
 const button = document.getElementById("button-guess");
 button.addEventListener("click", userValue);
