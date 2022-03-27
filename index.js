@@ -16,11 +16,11 @@ function userValue() {
 if (userCountry == randomCountry) {
   document.getElementById("title").innerHTML = "You guess it!";
   document.body.style.backgroundColor = "#7ad66f";
-  document.getElementById('cat-image').src = "images/happy-cat.png";
+  document.getElementById('cat-image').src = "images/happy-cat.PNG";
 }
  else {
   document.getElementById("title").innerHTML = "Try again";
   document.body.style.backgroundColor = "#ff6161";
-  document.getElementById('cat-image').src = "images/try-again-cat.png";
+  document.getElementById('cat-image').src = "images/try-again-cat.PNG";
  }
 }
